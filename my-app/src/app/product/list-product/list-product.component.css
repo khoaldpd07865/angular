@@ -1,0 +1,55 @@
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+.carousel-item img{
+    width: 100%;
+    height: 300px;
+}
+.bg-info-purple {
+    background-color: #c8ccf4;
+}
+
+.colors ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.colors li {
+    margin: 0 20px 0 0;
+    display: inline-block;
+}
+.colors li {
+    text-align: center;
+}
+.colors label {
+    cursor: pointer;
+}
+
+.colors input {
+    display: none;
+}
+
+.colors input[type="radio"]:checked+.swatch {
+    box-shadow: inset 0 0 0 2px white, 0 0 5px rgba(126, 126, 126, 0.3);
+}
+
+.swatch {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    margin: 0 5px 0 0;
+    border: 1px solid #d4d4d4;
+}
+
+.size button{
+    border: 1px solid gainsboro;
+    background-color: white;
+    margin-left: 10px;
+}
+.highlight{
+    background-color: black !important;
+    color: #d4d4d4;
+}
